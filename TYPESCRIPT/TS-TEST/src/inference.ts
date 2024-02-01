@@ -10,6 +10,6 @@ let num1 = 12
 // num1 = 'Hello type!'
 
 // 기본값이 지정된 매개 변수 `b` + 반환 값이 확실한 함수 `add`
-function add(a: number, b: number = 2) {
+function add3(a: number, b: number = 2) {
     return a + b
 }

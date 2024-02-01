@@ -6,6 +6,7 @@
 // }
 interface GetName {
     (param: string): string
+    // (param: string, two: string): string
 }
 
 interface User2 {
@@ -16,7 +17,7 @@ interface User2 {
 const heropy2: User2 = {
     name: 'Heropy',
     age: 85,
-    getName(message: string) {
+    getName(message: string) { // 매개변수 이름이 달라도 괜찮지만, 개수는 일치해야 한다.
         console.log(message)
         return this.name
     }

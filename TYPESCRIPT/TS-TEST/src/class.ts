@@ -31,6 +31,6 @@ class User_C extends User_B {
 
 const neo2 = new User_A('Neo', 'Anderson', 102)
 console.log(neo2.first)
-console.log(neo2.last) // Error
-console.log(neo2.age) // Error
-neo2.getAge() // Error
+console.log(neo2.last)
+console.log(neo2.age)
+neo2.getAge()
